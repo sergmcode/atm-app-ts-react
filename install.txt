@@ -1,0 +1,5 @@
+npm i redux redux-thunk
+npm i react-redux @types/react-redux
+npm i moment
+npm i ant
+npm i react-router-dom @types/react-router-dom
