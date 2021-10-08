@@ -7,7 +7,6 @@ interface Props {
 }
 
 const AppHeader = (props: Props) => {
-  const appState = useAppSelector(state => state.todoReducer)
   const appDispatch = useAppDispatch()
   const dispatch = useDispatch()
   return (

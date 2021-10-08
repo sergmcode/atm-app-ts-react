@@ -3,4 +3,36 @@
   justify-content: center;
   align-items: center;
   background-color: #ccc;
+  flex-direction: column;
+}
+
+.AppContent__output {
+  margin-top: 20px; 
+  width: 600px;
+  height: 650px;
+  background-color: #eee;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.AppContent__outputNumpadButton:hover {
+  background-color: gold;
+  transition: background-color .5s;
+}
+
+.AppContent__outputStatusAccepted {
+    font-size: 2rem;
+    color: rgb(37, 255, 37);
+}
+.AppContent__outputStatusRejected {
+    font-size: 2rem;
+    color: rgb(226, 37, 138);
+}
+
+.AppContent__error {
+  font-size: 1.5rem;
+  color: rgb(37, 109, 226);
 }

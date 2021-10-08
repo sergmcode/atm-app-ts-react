@@ -1,9 +1,9 @@
 import { Action, applyMiddleware, combineReducers, createStore } from "redux";
 import thunk, { ThunkDispatch } from "redux-thunk";
-import { todoReducer } from "./reducers/todoReducer";
+import { atmReducer } from "./reducers/atmReducer";
 
 const rootReducer = combineReducers({
-  todoReducer,
+  atmReducer,
 })
 
 export const store = createStore(rootReducer, applyMiddleware(thunk))
