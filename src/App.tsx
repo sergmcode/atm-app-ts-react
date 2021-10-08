@@ -1,7 +1,7 @@
 import './App.css';
-import AppHeader from './components/AppHeader';
-import AppContent from './components/AppContent';
-import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
+import AppHeader from './components/AppHeader/AppHeader';
+import AppContent from './components/AppContent/AppContent';
+import 'antd/dist/antd.css';
 
 function App() {
   return (
